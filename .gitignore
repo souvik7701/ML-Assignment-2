@@ -16,6 +16,14 @@ env/
 venv/
 ENV/
 
+# Model checkpoints (too large for GitHub; kept locally)
+*.pt
+# Full-dataset encodings for Paper 3 (59 MB each)
+results/fig7/cache/encodings_*.npz
+
 # System / OS
 .DS_Store
 Thumbs.db
+
+#Latex
+*.tex
